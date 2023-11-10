@@ -1,0 +1,264 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: slategrey;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    position: fixed;
+ }
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+.background {
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    z-index: -1;
+}
+
+.title {
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 7em;
+    z-index: 1;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    height: 450px;
+    margin-top: 0px;
+}
+
+.membership-header {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 400px;
+    margin-left: 480px;
+    margin-top: 165px;
+    height: auto;
+    background-color: grey;
+    color: black;
+}
+
+.membership-tile {
+    background-color: whitesmoke;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    padding-top: 40px;
+    margin-top: 40p;
+    height: 400px;
+}
+
+.flexbox-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-right: 2px solid grey;
+    padding-bottom: 75px;
+    border-bottom: 2px solid gray;
+}
+
+.help {
+    color: black;
+}
+
+.membership-name {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+button {
+    padding: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color: rgb(240, 168, 35);
+}
+
+.about-us-tile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 2px solid grey;
+    padding-bottom: 75px;
+    background-color: whitesmoke;
+    justify-content:flex-start;
+    height: 600px;
+    width: 100%;
+}
+
+.about-us-header {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.group-img {
+    display: flex;
+    width: 50%;
+    height: 400px;
+}
+
+.goal {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.goal-description {
+display: flex;
+justify-content: center;
+font-size: 1.3em;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 565px;
+    background-color: slategray;
+    justify-content: space-evenly;
+    height: 300px;
+    border: 2px solid grey;
+}
+
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.group-x-container {
+    background-color: whitesmoke;
+    height: 400px;
+    padding-top: 50px;
+}
+
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
